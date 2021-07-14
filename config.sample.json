@@ -1,0 +1,20 @@
+{
+  "mode": "dev",
+  "api": {
+    "bind": "localhost",
+    "port": 3000,
+    "trustProxy": true
+  },
+  "storagePath": {
+    "ambient": {
+        "image": "public/ambient/image"
+    }
+  },
+  "db": {
+    "name": "smartgarden",
+    "user": "smartgarden",
+    "password": "sg2021sg",
+    "host": "yourmysqlhost.com",
+    "dialect": "mysql"
+  }
+}
